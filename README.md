@@ -24,6 +24,7 @@ process
 ```
 0.1 Author: Ryan Martin
 
+
 ```
     ready [0] [1] [2] [3] [4] [5] [6]
           first find min value -> [3]
@@ -46,3 +47,11 @@ process
 ```
 
 0.2 Author: Ryan Martin
+
+
+```
+Equity  - Two In One
+Minimum - Left Right
+Maximum - None None
+Event   - Dynamic Select And Found Minimum
+```
