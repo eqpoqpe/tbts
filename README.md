@@ -33,7 +33,7 @@ process
    ready  [0] [4] [2] [5] [6]
    ready  [0] [4] [5] [2] [6]
           ___________ ______
-          Left         Right
+          left         right
    ready  [0] [4] [5]
           ___________
           find the min value -> [4]
