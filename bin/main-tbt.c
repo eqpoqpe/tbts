@@ -3,6 +3,7 @@
 
 int main()
 {
+#if 0
 	int a = 0;
 	int b = 0;
 	int l = 21;
@@ -11,4 +12,5 @@ int main()
 	printf("%d\n", __ISEV__(l));
 	printf("%d\n", __ISEV__(g));
 	return 0;
+#endif
 }
