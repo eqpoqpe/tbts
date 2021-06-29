@@ -45,7 +45,6 @@ process
           NO_FULL
   finaly  [3] [4] [5] [0] [1] [2] [6]
 ```
-
 0.2 Author: Ryan Martin
 
 
