@@ -17,7 +17,10 @@ struct tbt_arg_st {
 	int siz;
 };
 
-#define __ISEQ__(nm0, nm1)	(int)(!(nm0 ^ nm1) ? 0 : 1)
-#define __ISEV__(nm0)		(int)((!(nm0%2) | 0) ? 0 : 1)
+/* if equity return 0 */
+#define ISEQ(nm0, nm1)	(int)(!(nm0 ^ nm1) ? 0 : 1)
+
+/* if it's event return 0 */
+#define ISEV(nm0)	(int)((!(nm0%2) | 0) ? 0 : 1)
 
 #endif
