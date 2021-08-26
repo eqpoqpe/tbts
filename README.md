@@ -28,16 +28,16 @@ process
 
 
 ```
-    ready [0] [1] [2] [3] [4] [5] [6]
+    wait [0] [1] [2] [3] [4] [5] [6]
           first find min value -> [3]
       cmp [0]-[1] [2]-[4] [5]-[6]
           [0] and [1] are same value,
           saved one value to keeps cmp
-   ready  [0] [4] [2] [5] [6]
-   ready  [0] [4] [5] [2] [6]
+   wait  [0] [4] [2] [5] [6]
+   wait  [0] [4] [5] [2] [6]
           ___________ ______
           left         right
-   ready  [0] [4] [5]
+   wait  [0] [4] [5]
           ___________
           find the min value -> [4]
      cmp  [0]-[5] [2]-[6]
@@ -45,7 +45,7 @@ process
   result  [5] [0] [2] [6]
           ______________
           NO_FULL
-  finaly  [3] [4] [5] [0] [1] [2] [6]
+  result  [3] [4] [5] [0] [1] [2] [6]
 ```
 0.2 Author: Ryan Martin
 
