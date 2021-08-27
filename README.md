@@ -1,10 +1,10 @@
 RBRS
 ```
-    wait [0] [1] [2] [3] [4] [5] [6]
-          first find min value -> [3]
-      cmp [0]-[1] [2]-[4] [5]-[6]
-          [0] and [1] are same value,
-          saved one value to keeps cmp
+   wait [0] [1] [2] [3] [4] [5] [6]
+      first find min value -> [3]
+   cmp  [0]-[1] [2]-[4] [5]-[6]
+      [0] and [1] are same value,
+      saved one value to keeps cmp
    wait  [0] [4] [2] [5] [6]
    wait  [0] [4] [5] [2] [6]
           ___________ ______
